@@ -5,8 +5,8 @@ from PIL import ImageGrab
 from tensorflow import keras
 from keras.models import load_model
 
-model=load_model('mnist.h5')
-image_folder= "C:/Users/user/Desktop/Django Recent/Hand written Recognization/img/"
+model=load_model('Hand written Recognization/mnist.h5')
+image_folder= "Hand written Recognization/img/"
 
 root=Tk()
 root.resizable(0,0)
@@ -103,6 +103,5 @@ root.mainloop()
 
 
     
-
 
 
