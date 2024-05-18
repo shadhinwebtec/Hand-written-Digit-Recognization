@@ -5,7 +5,7 @@ from PIL import ImageGrab
 from tensorflow import keras
 from keras.models import load_model
 
-model=load_model('Hand written Recognization/mnist.h5')
+model=load_model('Hand written Recognization/hand_written_digit.h5')
 image_folder= "Hand written Recognization/img/"
 
 root=Tk()
